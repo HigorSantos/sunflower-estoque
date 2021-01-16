@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/sunflower-estoque/static/css/main.9bf9a6ae.chunk.css",
+    "main.js": "/sunflower-estoque/static/js/main.ed55a133.chunk.js",
+    "main.js.map": "/sunflower-estoque/static/js/main.ed55a133.chunk.js.map",
+    "runtime-main.js": "/sunflower-estoque/static/js/runtime-main.e89ea297.js",
+    "runtime-main.js.map": "/sunflower-estoque/static/js/runtime-main.e89ea297.js.map",
+    "static/js/2.74d41ae6.chunk.js": "/sunflower-estoque/static/js/2.74d41ae6.chunk.js",
+    "static/js/2.74d41ae6.chunk.js.map": "/sunflower-estoque/static/js/2.74d41ae6.chunk.js.map",
+    "index.html": "/sunflower-estoque/index.html",
+    "static/css/main.9bf9a6ae.chunk.css.map": "/sunflower-estoque/static/css/main.9bf9a6ae.chunk.css.map",
+    "static/js/2.74d41ae6.chunk.js.LICENSE.txt": "/sunflower-estoque/static/js/2.74d41ae6.chunk.js.LICENSE.txt",
+    "static/media/add-produto.b2b4d489.svg": "/sunflower-estoque/static/media/add-produto.b2b4d489.svg",
+    "static/media/adicionar-ao-carrinho.8bd154cf.svg": "/sunflower-estoque/static/media/adicionar-ao-carrinho.8bd154cf.svg",
+    "static/media/detalhe.c707d3f4.svg": "/sunflower-estoque/static/media/detalhe.c707d3f4.svg",
+    "static/media/lista-de-controle.4d347909.svg": "/sunflower-estoque/static/media/lista-de-controle.4d347909.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e89ea297.js",
+    "static/js/2.74d41ae6.chunk.js",
+    "static/css/main.9bf9a6ae.chunk.css",
+    "static/js/main.ed55a133.chunk.js"
+  ]
+}
