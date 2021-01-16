@@ -1,17 +1,22 @@
 import React from 'react';
+import { Router } from 'react-router-dom';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import './global.css';
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import { initFacebookSdk} from './helpers/init-facebook-sdk';
+import { jwtInterceptor } from './helpers/jwt.interceptor';
+import { errorInterceptor } from './helpers/error.interceptor';
+
+// enable interceptors for http requests
+jwtInterceptor();
+errorInterceptor();
+
+// wait for facebook sdk before startup
+initFacebookSdk().then(startApp);
+
+function startApp() { 
+    ReactDOM.render(<App />,document.getElementById('root'));
+}
+

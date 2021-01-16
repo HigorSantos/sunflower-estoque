@@ -1,0 +1,11 @@
+div.selecao input{
+    height: 20px;
+}
+
+button{
+    background:rgba(22, 160, 133,1.0);
+    color: #fff;
+}
+.grupo-input label{
+    min-width: 61px;
+}

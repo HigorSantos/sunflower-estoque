@@ -1,0 +1,9 @@
+
+button.btn-add{
+    background: rgba(230, 126, 34,1.0);
+    color: #fff;
+}
+
+.grupo-input label{
+    min-width: 55px;
+}

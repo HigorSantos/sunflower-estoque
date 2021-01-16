@@ -1,0 +1,24 @@
+div.quantidade-input{
+    border-radius: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+}
+div.quantidade-input input{
+    max-width: 50px;
+    border: 0;
+    border-radius: 0;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+div.quantidade-input button{
+    margin-top: 0;
+    height: 40px;
+    border: 0;
+    border-radius: 0;
+    background: rgba(52, 152, 219,1.0);
+    color: #fff;
+}

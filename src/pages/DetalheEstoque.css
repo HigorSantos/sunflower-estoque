@@ -1,0 +1,49 @@
+div#prod-log-estoque article{
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 5px 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 300 ;
+}
+div#prod-log-estoque article span.log-tipo{
+    min-width: 50px;
+
+}
+div#prod-log-estoque article span.log-qtd{
+    min-width: 45px;
+}
+div#prod-log-estoque article span.log-preco{
+    text-align: right;
+    min-width: 70px;
+}
+div#prod-log-estoque article.tipo-estoque-saida{
+    background: rgba(0, 184, 148,.3);
+}
+div#prod-log-estoque article.tipo-estoque-entrada{
+    background: rgba(108, 92, 231,.3);
+}
+div#prod-log-estoque article.tipo-estoque-ajuste{
+    background: rgba(253, 203, 110,.3);
+}
+
+div#prod-det{
+    margin-bottom: 10px;
+}
+
+div#prod-det h4{
+    font-weight: 300;
+}
+
+div#prod-det h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+div#prod-det h3 .prod-codigo{
+    font-size: 13px;
+    color: #08787F;
+}

@@ -1,0 +1,22 @@
+#main-footer{
+    width: 100%;
+    padding: 10px 20%;
+    margin-top: 10px;
+    text-align: center;
+   /* background: url('../assets/sun.png');
+    background-color: #cccccc;
+    background-position: 50%;
+    background-size: cover;*/
+   
+}
+#main-footer p{
+    margin: 10px;
+}
+#main-footer #creditos{
+    display: flex;
+    flex-direction: column;
+}
+
+#main-footer #creditos span{
+    font-size: 10px;
+}
